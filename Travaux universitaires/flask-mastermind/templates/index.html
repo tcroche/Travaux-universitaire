@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mastermind Simulator</title>
+</head>
+<body>
+ {% extends "base.html" %}
+
+{% block title %}Configure Simulation{% endblock %}
+
+{% block content %}
+  <h2>Configure Mastermind Simulation</h2>
+  <form method="post">
+    <label>
+      Number of colors:
+      <select name="n_colors">
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6" selected>6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+      </select>
+    </label>
+    <br>
+
+    <label>
+      Code length:
+      <select name="code_length">
+        <option value="3">3</option>
+        <option value="4" selected>4</option>
+        <option value="5">5</option>
+      </select>
+    </label>
+    <br>
+
+    <label>
+      Allow repetition?
+      <input type="radio" name="allow_repetition" value="true" checked> Yes
+      <input type="radio" name="allow_repetition" value="false"> No
+    </label>
+    <br>
+
+    <label>
+      Game mode:
+      <select name="mode">
+        <option value="standard" selected>Standard</option>
+        <option value="beginner">Beginner</option>
+      </select>
+    </label>
+    <br>
+
+    <label>
+      Number of simulations:
+      <input type="number" name="n_runs" value="100" min="1">
+    </label>
+    <br><br>
+
+    <button type="submit">Run Simulation</button>
+  </form>
+{% endblock %}
+
+</body>
+</html>

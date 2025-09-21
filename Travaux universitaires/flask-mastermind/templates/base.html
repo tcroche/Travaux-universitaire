@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <header>
+    <h1>🔷 Mastermind Simulator</h1>
+  </header>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      <div class="flashes">
+        {% for category, msg in messages %}
+          <div class="flash {{ category }}">{{ msg }}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endwith %}
+
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <small>© May 2025 Théo Crochemar</small>
+  </footer>
+
+</body>
+</html>
