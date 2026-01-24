@@ -1,4 +1,4 @@
-#TER – Optimization and Generalization of Neural Networks
+# TER – Optimization and Generalization of Neural Networks
 
 This project corresponds to my Research Project (TER) conducted at the end of my Master 1 in IMMAEF.
 It was carried out in collaboration with another student from the program, within a supervised research framework.
