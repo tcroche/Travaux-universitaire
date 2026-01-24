@@ -13,4 +13,4 @@ The results show that:
 - the first mystery allocation is well explained by a static combination of ETFs, with a strong equity-oriented exposure;
 - the second allocation exhibits a more dynamic structure, with a more diversified and slightly more cyclical exposure.
 
-This work applies standard quantitative finance, data analysis, and linear modeling techniques within a reproducible and economically interpretable framework.
+
