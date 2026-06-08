@@ -1,0 +1,5 @@
+# Dependances du projet (Python 3.12)
+# Seules numpy et pandas sont des dependances tierces ;
+# statistics, math, itertools, datetime, os, glob sont dans la stdlib.
+numpy
+pandas
