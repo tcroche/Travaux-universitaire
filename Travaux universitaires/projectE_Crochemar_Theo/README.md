@@ -39,8 +39,7 @@ where $(B_t)_{t \ge 0}$ is a standard Brownian motion. The model parameters are:
 
 The payoff is the discounted expectation of
 
-$$
-\Phi\!\left(\int_0^T X_t^x\,dt,\; X_T^x\right)
+$$\phi\:\left( \int_0^T X_t^x\,dt,\; X_T^x\right )$$
 =
 \mathbf{1}_{\left\{\int_0^T X_t^x\,dt \,<\, 110\right\}}\,(X_T^x - 100)_+ .
 $$
@@ -130,8 +129,7 @@ evaluated for $M \in \{50, 150, 250\}$. The price is estimated by standard Monte
 
 A centered finite-difference estimator is used:
 
-$$
-\widehat{\Delta}^{\,FD}_{N,\varepsilon}
+$$\widehat{\Delta}$$^$${\,FD}_{N,\varepsilon}$$
 =
 \frac{\widehat P_N(x+\varepsilon) - \widehat P_N(x-\varepsilon)}{2\varepsilon}.
 $$
