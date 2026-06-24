@@ -2,7 +2,7 @@
 
 A look-ahead-free Python backtesting engine for **1-minute equity-index data**, built with strict in-sample / out-of-sample discipline and statistical significance testing. Academic project for the *Systematic Trading Module* (M.Sc. Applied Mathematics & Quantitative Finance, Université Paris 1 Panthéon-Sorbonne).
 
-> **Headline.** The engine is designed to evaluate a strategy *honestly*, not to advertise one. The main result is a rigorously demonstrated **absence of net edge**: out-of-sample gross returns are ≈ 0 and net returns are negative — a conclusion confirmed independently by an out-of-sample Sharpe confidence interval (Lo, 2002) and an in-sample Deflated Sharpe Ratio (Bailey & López de Prado, 2014). Demonstrating non-viability cleanly is the deliverable.
+> **Headline.** The engine is designed to evaluate a strategy *honestly*, not to advertise one. The main result is a rigorously demonstrated **absence of net edge**: out-of-sample gross returns are ≈ 0 and net returns are negative, a conclusion confirmed independently by an out-of-sample Sharpe confidence interval (Lo, 2002) and an in-sample Deflated Sharpe Ratio (Bailey & López de Prado, 2014). Demonstrating non-viability cleanly is the deliverable.
 
 ---
 
@@ -17,7 +17,7 @@ A look-ahead-free Python backtesting engine for **1-minute equity-index data**, 
 
 ## Methodology
 
-**Universe & data.** Five global indices at 1-minute resolution — S&P 500 (`GSPC`), Dow Jones (`DJI`), Russell 2000 (`RUT`), FTSE 100 (`FTSE`), Nikkei 225 (`N225`) — over 6 Jan – 31 Jul 2025 (~7 months).
+**Universe & data.** Five global indices at 1-minute resolution: S&P 500 (`GSPC`), Dow Jones (`DJI`), Russell 2000 (`RUT`), FTSE 100 (`FTSE`), Nikkei 225 (`N225`), over 6 Jan – 31 Jul 2025 (~7 months).
 
 **In-sample / out-of-sample split.** IS = 6 Jan – 30 May 2025 (103 trading days, calibration only); OOS = 2 Jun – 31 Jul 2025 (44 days, validation). The split respects the brief's bounds (IS ≤ 5 months, OOS ≥ 1 month) and the OOS is **sealed**: a single pass, no iteration.
 
@@ -49,7 +49,7 @@ The momentum direction (continuation, not mean-reversion) was selected *after* a
 | **Portfolio (with RUT)** | +0.02 | -0.54 | -2.19 | -0.95 | 4.1 |
 | **Portfolio (ex-RUT)** | -0.42 | -1.01 | -4.52 | -1.17 | 3.5 |
 
-**Reading.** Gross is ≈ 0; the negative net is essentially the fee drag. The in-sample Sharpe looked promising (≈ 1.9 with RUT) but the **Deflated Sharpe Ratio rejects it** (DSR = 0.92 with RUT, 0.38 without — both below the 0.95 threshold), and on 44 OOS days every Sharpe confidence interval contains zero except GSPC (significantly negative). The apparent in-sample edge was concentrated in a single asset (RUT) and a single regime (the April 2025 small-cap turbulence) and did not generalize.
+**Reading.** Gross is ≈ 0; the negative net is essentially the fee drag. The in-sample Sharpe looked promising (≈ 1.9 with RUT) but the **Deflated Sharpe Ratio rejects it** (DSR = 0.92 with RUT, 0.38 without, both below the 0.95 threshold), and on 44 OOS days every Sharpe confidence interval contains zero except GSPC (significantly negative). The apparent in-sample edge was concentrated in a single asset (RUT) and a single regime (the April 2025 small-cap turbulence) and did not generalize.
 
 ---
 
