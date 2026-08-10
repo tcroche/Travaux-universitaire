@@ -19,6 +19,7 @@ RANDOM_SEED = 42
 # --- Univers de travail : indices boursiers mondiaux (cf. consignes) ---
 # Cles NORMALISEES (sans ^ ni =). Le loader fait la correspondance.
 UNIVERSE = ["GSPC", "DJI", "RUT", "FTSE", "N225"]   # S&P500, Dow, Russell2000, FTSE100, Nikkei
+TICKERS = UNIVERSE
 
 # Fichiers a ignore
 NON_INSTRUMENTS = {"PNL", "DAILY"}
