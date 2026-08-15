@@ -1,4 +1,4 @@
-# Intraday Systematic Trading Backtester
+# Intraday Systematic Trading Backtester (M2 MMMEF Paris 1 - 2026)
 
 A look-ahead-free Python backtesting engine for **1-minute equity-index data**, built with strict in-sample / out-of-sample discipline and statistical significance testing. Academic project for the *Systematic Trading Module* (M.Sc. Applied Mathematics & Quantitative Finance, Université Paris 1 Panthéon-Sorbonne).
 
