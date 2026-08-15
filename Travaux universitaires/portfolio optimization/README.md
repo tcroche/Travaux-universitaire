@@ -1,4 +1,4 @@
-# Python Project – ETF Analysis and Anonymized Portfolio Allocations
+# Python Project – ETF Analysis and Anonymized Portfolio Allocations (M2 MMMEF Paris 1 - 2025)
 
 This project was developed as part of a quantitative finance Python project.
 It focuses on the analysis of a universe of 105 anonymized exchange-traded funds (ETFs), 14 broad asset classes, and two anonymized portfolios (“Mystery Allocations”) constructed from these ETFs.
