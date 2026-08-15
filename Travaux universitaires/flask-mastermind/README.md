@@ -1,4 +1,4 @@
-# Flask Project – Mastermind Game
+# Flask Project – Mastermind Game (M1 IMMAEF Paris 1 - 2025)
 
 This project was developed during the second semester of my Master 1 as part of the Object-Oriented Programming course.
 
