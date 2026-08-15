@@ -1,4 +1,4 @@
-# Econometric Project – BRL/USD Exchange Rate
+# Econometric Project – BRL/USD Exchange Rate (M1 IMMAEF Paris 1 - 2025)
 
 This project was carried out during my Master 1 as part of applied econometrics coursework.
 
