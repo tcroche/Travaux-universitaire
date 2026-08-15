@@ -1,4 +1,4 @@
-# Numerical Methods for Optimization - Portfolio Optimization (Mean–Variance)
+# Numerical Methods for Optimization - Portfolio Optimization (Mean–Variance) (M2 MMMEF Paris 1 - 2026)
 
 This repository contains my project for the course **Numerical Methods for Optimization** (Université Paris 1 Panthéon-Sorbonne, Jan–Feb 2026).
 
