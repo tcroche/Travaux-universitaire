@@ -1,6 +1,7 @@
-# Malliavin Calculus — Monte Carlo Estimation of Greeks
+# Malliavin Calculus - Monte Carlo Estimation of Greeks 
+(M2 MMMEF Paris 1 - 2026)
 
-**Project 5 — Malliavin Calculus (graduate course)**
+**Project 5 - Malliavin Calculus (graduate course)**
 
 This repository covers the theoretical derivation and numerical estimation of option
 sensitivities, comparing **finite-difference methods** with **Malliavin integration by
