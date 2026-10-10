@@ -33,7 +33,7 @@ The momentum direction (continuation, not mean-reversion) was selected *after* a
 
 **Portfolio.** Equal-weight aggregation of per-asset daily net returns, with **per-day weight renormalization** over the assets actually trading (handles non-overlapping calendars, e.g. Japanese holidays).
 
-**Validation.** Lo (2002) Sharpe standard error → out-of-sample confidence intervals; Deflated Sharpe Ratio → in-sample significance after correcting for ~30 trials and non-normality.
+**Validation.** Lo (2002) Sharpe standard error → out-of-sample confidence intervals; Deflated Sharpe Ratio → in-sample significance after correcting for 18 trials and non-normality.
 
 ---
 
