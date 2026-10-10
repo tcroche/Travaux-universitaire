@@ -78,9 +78,9 @@ The momentum direction (continuation, not mean-reversion) was selected *after* a
 ## Installation
 
 ```bash
-git clone https://github.com/tcroche/<repo>.git
-cd <repo>
-pip install -r requirements.txt
+git clone https://github.com/tcroche/Travaux-universitaire.git
+cd "Travaux-universitaire/Travaux universitaires/Projet_Algo_trading_Crochemar_MMMEF"
+pip install -r Requirements.txt
 ```
 
 Requires Python 3.12. Dependencies: `numpy`, `pandas` (everything else is standard library).
